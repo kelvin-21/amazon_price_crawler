@@ -9,6 +9,16 @@
 
 ### Files
 
+----
+amazon_price.py
+
+Need to input:
+- `my_token = ''  # telegram bot token` Telegram bot token (Go to [here](https://docs.microsoft.com/en-us/azure/bot-service/bot-service-channel-connect-telegram?view=azure-bot-service-4.0) for more info)
+- ` user = ''  # telegram user chat id` Telegram user chat id (Go to [here](https://stackoverflow.com/questions/32423837/telegram-bot-how-to-get-a-group-chat-id) for more info)
+- `num_partition = 1  # number of thread` Number of threads (default=1)
+
+----
+
 product_list.csv
 
 | product_code  | price | update_time| remark | alert_threshold | good_price | link |

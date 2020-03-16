@@ -18,7 +18,7 @@ import warnings
 warnings.filterwarnings("ignore")
 
 my_token = ''  # telegram bot token
-user = ''  # telegram user chat token
+user = ''  # telegram user chat id
 
 
 class State(Enum):
@@ -345,5 +345,5 @@ def job_multithread(num_partition=1):
     for i in range(0, len(threads)):
         threads[i].join()
 
-
-job_multithread(num_partition=3)
+num_partition = 1  # number of thread
+job_multithread(num_partition)
