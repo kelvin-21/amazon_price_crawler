@@ -21,6 +21,7 @@ product_list.csv
 - Define your desired purchase price at **alert_threshold**
 - **remark** ,**good_price**, **link** are for your notes
 
+
 Other required files:
 - chrome driver for selenium (put it in this directory)
 - tesseract.exe (put it in the path C:\Program Files\Tesseract-OCR\tesseract.exe)
