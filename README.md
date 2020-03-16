@@ -1,4 +1,4 @@
-### Amazon Price Crawler
+## Amazon Price Crawler
 
 - Get the price and stock information of 70 products on Amazon.jp within 30 seconds
 - Detect different web states and perform corresponding actions
@@ -7,8 +7,7 @@
 - Support multi-threading
 - For Amazon.jp only
 
-### Files
-
+## Files
 ----
 amazon_price.py
 
@@ -31,6 +30,7 @@ product_list.csv
 - Define your desired purchase price at **alert_threshold**
 - **remark** ,**good_price**, **link** are for your notes
 
+----
 
 Other required files:
 - chrome driver for selenium (put it in this directory)
