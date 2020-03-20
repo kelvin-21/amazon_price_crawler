@@ -2,7 +2,7 @@
 
 - Able to get the price and stock information of 70 products on Amazon.jp within 20 seconds
 - Detect different web states and perform corresponding actions
-- Bypass captcha in Amazon
+- Solve captcha in Amazon
 - Prompt alert in Telegram if desired price appears
 - Support multi-threading
 - For Amazon.jp only
