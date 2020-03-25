@@ -283,12 +283,12 @@ class Amazon():
         
         text = text.replace(' ', '')
         if text is None:
-            self.state = State.CAPTCHA_REFRESH  # faild
+            self.state = State.CAPTCHA_REFRESH  # failed
             return None
         elif len(text) != 6:
-            self.state = State.CAPTCHA_REFRESH  # faild
+            self.state = State.CAPTCHA_REFRESH  # failed
         elif not text.isupper():
-            self.state = State.CAPTCHA_REFRESH  # faild
+            self.state = State.CAPTCHA_REFRESH  # failed
         else:
             print('[CAPTCHA] text = {}'.format(text))
             self.captcha_text = text
